@@ -36,3 +36,26 @@ public class HelloWorld {
  System.out.println("Hello, Java!");
  }
 }
+# locla variables
+import java.util.*;
+
+public class MyClass {
+    public void calculateSum() {
+      
+      / ********************************************************************************  
+    // ✏️✏️️✏️ WRITE CODE HERE   **  
+     
+  // *********  
+        
+        int sum = a + b;
+        System.out.println("Sum: " + sum);
+    }
+
+    public static void main(String[] args) {
+        // Create an instance of the class that contains the calculateSum() method
+        MyClass myClass = new MyClass();
+        // Call the calculateSum() method
+        myClass.calculateSum();
+    }
+}
+
