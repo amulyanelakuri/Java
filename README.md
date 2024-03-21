@@ -58,4 +58,54 @@ public class MyClass {
         myClass.calculateSum();
     }
 }
+# non static variables
+public class Circle {
+  
+   
+  // ********************************************************************************  
+   //Declare instance variables
+    // ✏️✏️️✏️ WRITE CODE HERE   **  
+     
+  // ******************************************************************************** 
+    
+  public void calculateArea() {
+        area = 3.14 * radius * radius;
+        System.out.println("Area: " + area);
+    }
+
+    public static void main(String[] args) {
+        // Create an instance of the Circle class
+        Circle circle = new Circle();
+
+        // Set the radius of the circle
+        circle.radius = 5.0;
+
+        // Call the calculateArea() method
+        circle.calculateArea();
+    }
+}
+# static variables
+public class Circle {
+    public void calculateArea() {
+       
+     // ********************************************************************************  
+    // ✏️✏️️✏️ WRITE CODE HERE   **  
+     
+  // ********************************************************************************  
+       
+        double radius = 5.0;
+        double area = **Write your code here **;
+        
+        System.out.println("Area: " + area);
+    }
+
+    public static void main(String[] args) {
+        // Create an instance of the Circle class
+        Circle circle = new Circle();
+
+        // Call the calculateArea() method
+        circle.calculateArea();
+    }
+}
+
 
