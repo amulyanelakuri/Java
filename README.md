@@ -107,5 +107,22 @@ public class Circle {
         circle.calculateArea();
     }
 }
-
-
+# NEW CHAPATER 
+# Interduction
+import java.util.*;
+{
+ public static void main (string[]args)
+ {
+   System.out.println(12);
+# printing the text
+import java.util.*;
+{
+public static void main(string args[])
+{
+System.out.print("guithub");
+# printing arithmetic operations
+import java.util.*;
+{
+ public static void main(string args[])
+ {
+ System.out.println(12+12);
