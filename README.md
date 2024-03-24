@@ -114,15 +114,43 @@ import java.util.*;
  public static void main (string[]args)
  {
    System.out.println(12);
+   }
+ }
 # printing the text
 import java.util.*;
 {
 public static void main(string args[])
 {
 System.out.print("guithub");
+  }
+}
 # printing arithmetic operations
 import java.util.*;
 {
  public static void main(string args[])
  {
  System.out.println(12+12);
+    }
+ }
+ # initialize the variables 
+ import java.util.*;
+ {
+ public class main(string args[])
+ {
+   int length=12;
+   int breadth=14;
+   System.out.println(length*breadth);
+   System.out.println(2*(length+breadth));
+      }
+   }
+   # printing TEXT WITH NUMBERS
+   import java.util*;
+   {
+public static void main(sting[]args)
+{
+Systm.out.println("2 times 5 is"+(2*5));
+System.out.println("The numeric value of twenty three is " + 23);
+}
+
+ }
+ 
