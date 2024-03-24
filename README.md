@@ -151,6 +151,6 @@ public static void main(sting[]args)
 Systm.out.println("2 times 5 is"+(2*5));
 System.out.println("The numeric value of twenty three is " + 23);
 }
-
  }
+ 
  
