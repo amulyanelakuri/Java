@@ -152,5 +152,58 @@ Systm.out.println("2 times 5 is"+(2*5));
 System.out.println("The numeric value of twenty three is " + 23);
 }
  }
+ # variables in java
+ class github
+{
+	public static void main (String[] args)
+	{
+	    int age = 25;
+	    System.out.println(age);
+	}
+}
+# declaration of variables
+class github
+{
+	public static void main (String[] args)
+	{
+        int number = 19;
+        System.out.println(number);
+	}
+}
+# Addition of varibles
+class github
+{
+	public static void main (String[] args)
+	{
+        int length = 45;
+        int width = 76;
+        int Area = length * width;
+        System.out.println("The Area of the given rectangle is " + length*width);
+	}
+}
+ # Double datatypes
+ class github
+{
+	public static void main (String[] args)
+	{
+		double pi = 3.14;
+		double radius = 8.9;
+		double area = pi * radius * radius ;
+		System.out.println("The Area of the given Circle is " + area);
+	}
+}
+# String data type
+class github
+{
+	public static void main (String[] args)
+	{
+        String a ="code";
+        String b ="chef";
+        System.out.println(a+b);
+	}
+}
+
+
+
  
  
