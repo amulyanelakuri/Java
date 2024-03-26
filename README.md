@@ -41,12 +41,6 @@ import java.util.*;
 
 public class MyClass {
     public void calculateSum() {
-      
-      / ********************************************************************************  
-    // ✏️✏️️✏️ WRITE CODE HERE   **  
-     
-  // *********  
-        
         int sum = a + b;
         System.out.println("Sum: " + sum);
     }
@@ -60,14 +54,6 @@ public class MyClass {
 }
 # non static variables
 public class Circle {
-  
-   
-  // ********************************************************************************  
-   //Declare instance variables
-    // ✏️✏️️✏️ WRITE CODE HERE   **  
-     
-  // ******************************************************************************** 
-    
   public void calculateArea() {
         area = 3.14 * radius * radius;
         System.out.println("Area: " + area);
@@ -87,12 +73,6 @@ public class Circle {
 # static variables
 public class Circle {
     public void calculateArea() {
-       
-     // ********************************************************************************  
-    // ✏️✏️️✏️ WRITE CODE HERE   **  
-     
-  // ********************************************************************************  
-       
         double radius = 5.0;
         double area = **Write your code here **;
         
@@ -109,7 +89,7 @@ public class Circle {
 }
 # NEW CHAPATER 
 # Interduction
-import java.util.*;
+class github
 {
  public static void main (string[]args)
  {
@@ -117,7 +97,7 @@ import java.util.*;
    }
  }
 # printing the text
-import java.util.*;
+class github
 {
 public static void main(string args[])
 {
@@ -125,7 +105,7 @@ System.out.print("guithub");
   }
 }
 # printing arithmetic operations
-import java.util.*;
+class github
 {
  public static void main(string args[])
  {
@@ -133,7 +113,7 @@ import java.util.*;
     }
  }
  # initialize the variables 
- import java.util.*;
+ class github
  {
  public class main(string args[])
  {
@@ -144,7 +124,7 @@ import java.util.*;
       }
    }
    # printing TEXT WITH NUMBERS
-   import java.util*;
+  class github
    {
 public static void main(sting[]args)
 {
