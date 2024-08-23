@@ -1,0 +1,106 @@
+5.1.11. Problem solving with if-else
+
+Create a class AgeCheck with a public method checkAge that takes two parameters age1 and age2 are of type int. The program should print Discount Price if the age1 is less than 10 and age2 is greater than 60, otherwise it should print Full Price.
+package q10926;
+public class AgeCheck{
+	public void checkAge(int age1,int age2){
+		if(age1<10 && age2>60){
+			System.out.println("Discount Price");
+		}
+		else{
+			System.out.println("Full Price");
+		}
+	}
+}
+For Example:
+Cmd Args : 3 62
+Discount Price
+Note: Make sure to use println and not print method.
+15.1.12. Problem solving with if-else
+
+Create a class RangeCheck with a public method checkRange that takes two parameters first and second are of type int. If one of the numbers is within the range of 25 to 35 (both inclusive) the program should print Within range, otherwise it should print Out of range.
+
+For example:
+Cmd Args : 25 79
+Within range
+
+package q10927;
+public class RangeCheck{
+	public void checkRange(int first,int second){
+		if((first<=35&&first>=25)||(second<=35&&second>=25)){
+			System.out.println("Within range");
+		}
+		else{
+			System.out.println("Out of range");
+		}
+	}
+}
+
+click on  to understand how to write code which can perform basic counting.
+
+Below program has a class CountDemo with a main method. The method receives four integer values as command line arguments. These four integers represent the marks in Maths, Science, Social and English.
+
+Fill the missing code inside the main method such that the program should print the passCount. The passCount should reflect the count of subjects in which the marks scored is greater than or equal to 50.
+
+For example:
+Cmd Args : 75 55 65 23
+passCount = 3
+
+
+package q10928;
+public class CountDemo {
+	static final int PASS_MARK = 50;
+	public static void main(String[] args) {
+		int mathsMarks = Integer.parseInt(args[0]);
+		int scienceMarks = Integer.parseInt(args[1]);
+		// Fill in the missing code to initialize the below fields from arguments passed
+		int socialMarks = Integer.parseInt(args[2]);
+		int englishMarks = Integer.parseInt(args[3]);
+		int passCount = 0;
+		// Fill in the missing code here to count
+		int a[]={mathsMarks,scienceMarks,socialMarks,englishMarks};
+		for(int i=0;i<a.length;i++){
+			if(a[i]>50){
+				passCount++;
+			}
+		}
+		System.out.println("passCount = " + passCount);
+	}
+}
+
+Create a class CountSeniorCitizens with a public method countSeniorCitizens that takes four parameters age1, age2, age3, and age4 are of type int. The program should print the count of numbers which are greater than 60.
+
+For Example:
+Cmd Args : 60 61 59 58
+1
+[Hint: You can use multiple if conditions to keep track of the count.]
+
+Note: Make sure to use println and not print method.
+package q10929;
+public class CountSeniorCitizens{
+	public void countSeniorCitizens(int age1,int age2,int age3,int age4){
+		int count=0;
+		    int a[]={age1,age2,age3,age4};
+		for(int i=0;i<a.length;i++)
+			if(a[i]>60)
+				count++;
+		System.out.println(count);
+	}
+}	
+Create a class FindMax with a public method findMax that takes three parameters arg1, arg2, and arg3 are of type int. The program should print the largest of the given numbers.
+
+For example:
+Cmd Args : 10 20 5
+20
+
+package q10930;
+public class FindMax{
+	public void findMax(int arg1,int arg2,int arg3){
+		if(arg1>arg2 && arg1>arg3)
+			System.out.println(arg1);
+		else if(arg2>arg3)
+			System.out.println(arg2);
+		else
+			System.out.println(arg3);
+	}
+}
