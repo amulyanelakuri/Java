@@ -11,6 +11,7 @@ public class GradeMark {
         System.out.println(gradeCheck(marks3));
 
     }
+
     public static String gradeCheck(int marks){
         if(marks >90){
             return "A";
@@ -23,8 +24,8 @@ public class GradeMark {
         }
         else{
             return "Fail";
+            
         }
     }
-
-    
+  
 }
