@@ -12,10 +12,6 @@ public class Fibbnacci {
             System.out.print(start+" ");
             start=end;
             end= fib;
-
         }
-
-
     }
-    
 }

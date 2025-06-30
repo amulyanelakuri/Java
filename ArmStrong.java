@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class ArmStrong {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the Number: ");
         int n = sc.nextInt();
         int temp =n;
         int rev =0;
@@ -16,8 +17,9 @@ public class ArmStrong {
 
         }
         else{
-            System.out.println( temp + " It is not a ArmStrong Number");
+            System.out.println( temp + " is not a ArmStrong Number");
         }
+        sc.close();
 
 
 

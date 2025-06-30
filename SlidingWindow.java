@@ -14,7 +14,7 @@ public class SlidingWindow {
         }
         for(int i =0;i<=n-k;i++){
             int max = arr[i];
-            for(int j =i+1;j<i+k;j++){
+            for(int j = i+1 ; j < i+k ; j++){
                 if(arr[j] > max){
                     max = arr[j];
                 }
